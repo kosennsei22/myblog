@@ -1,0 +1,28 @@
+baseURL = "http://example.org/"
+languageCode = "ja"
+title = "高専日記"
+theme = "ananke"
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = "高専を、緩く発信する場"
+  background_color_class = "bg-light-gray"  # 背景を明るいグレーに
+  text_color = "dark-gray"                  # 文字色を落ち着いたグレーに
+  custom_css = ["css/custom.css"]           # 後で自分用CSSを追加できるように設定
+
+# メニュー設定（上部ナビゲーション）
+[[menu.main]]
+  name = "ホーム"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "記事一覧"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "プロフィール"
+  url = "/about/"
+  weight = 3
