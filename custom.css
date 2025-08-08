@@ -1,0 +1,25 @@
+body {
+  background-color: #f5f5f5;
+}
+.nested-copy-line-height.lh-copy.serif {
+  max-width: 1500px !important;  /* ← 好みで900px～1200pxぐらいでもOK */
+  margin: 0 auto;                /* 中央寄せ */
+}
+body, .nested-copy-line-height.lh-copy.serif {
+  color: #333; /* 落ち着いたダークグレー */
+}
+.nested-copy-line-height.lh-copy.serif {
+  max-width: 1500px !important;
+  width: auto !important;    /* 固定幅に近づける */
+  margin: 0 auto !important;
+}
+div.nested-copy-line-height.lh-copy.serif.w-two-thirds-l {
+  max-width: 1500px !important;
+  width: auto !important;
+  margin: 0 auto !important;
+}
+
+.w-two-thirds-l {
+  width: auto !important;
+  max-width: none !important;
+}
